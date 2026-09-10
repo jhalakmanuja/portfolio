@@ -29,7 +29,33 @@ import gsa from "../src/assets/googlesa.png";
 import sih from "../src/assets/SehatLink.png";
 import code1 from "../src/assets/collazoncode1.png";
 import collazon from "../src/assets/CollazonLogo.png";
+import uptoskills from "../src/assets/UptoSkillsLogo.png";
+import alfido from "../src/assets/AlfidoLogo.png";
+import skinDisease from "../src/assets/SkinDiseaseDetection.svg";
+import ati from "../src/assets/AlfidoTechCertificate.png";
 export const sampleProjects = [
+  {
+    id: 8,
+    Img: skinDisease,
+    Title: "Skin Disease Detection",
+    Description: "An AI/ML project built to classify skin diseases from dermatological images using a Convolutional Neural Network. Trained on image data to recognize disease patterns, it's designed for potential integration into Svasthay Sathi's AI health assistance module — bridging web development and machine learning into one accessible healthcare pipeline.",
+    Link: "Demo unavailable",
+    Github: "Private",
+    TechStack: [
+      "Python",
+      "TensorFlow/Keras",
+      "CNN",
+      "NumPy",
+      "Image Processing"
+    ],
+    Features: [
+      "🧠 CNN model trained to classify multiple skin disease categories",
+      "🖼️ Image preprocessing and augmentation pipeline for better accuracy",
+      "📊 Model evaluation with accuracy and loss tracking across epochs",
+      "🩺 Designed for integration into Svasthay Sathi's AI health module",
+      "🔬 Built as a bridge between frontend web skills and deep learning"
+    ]
+  },
   {
   id: 6,
   Img: code1,
@@ -111,7 +137,7 @@ export const sampleProjects = [
     id: 3,
     Img: sih,
 Title: "Svasthay Sathi",
-Description: "Svasthay Sathi is a comprehensive digital healthcare and telemedicine platform designed to improve healthcare access for rural and underserved communities. It connects patients, doctors, hospitals, institutes, and medical stores through secure teleconsultations, QR-based medical records, AI-powered health assistance, and real-time alerts. Built with a patient-first approach. SehatLink enables affordable, accessible, and timely healthcare even in low-network areas.",
+Description: "Svasthay Sathi is a comprehensive digital healthcare and telemedicine platform designed to improve healthcare access for rural and underserved communities. It connects patients, doctors, hospitals, institutes, and medical stores through secure teleconsultations, QR-based medical records, AI-powered health assistance, and real-time alerts. Built with a patient-first approach, Svasthay Sathi enables affordable, accessible, and timely healthcare even in low-network areas.",
 Link: "https://svasthay-sathi-5de2.vercel.app/",
 Github: "Private",
 TechStack: [
@@ -198,7 +224,8 @@ Features: [
 ];
 
 const sampleCertificates = [
-  { id: 1,Img:sdi24, name: "Smart Delhi Ideathon,2024" },
+  { id: 7,Img:ati, name: "Alfido Tech Internship" },
+  { id: 1,Img:sdi24, name: "Smart Delhi Ideathon, 2025" },
   { id: 2, Img:mait24, name: "Uncharted'24 Hackathon, CSI-IW, MAIT"},
   { id: 3, Img:thacks24, name: "Technorax V10.0, IEEE, ADGIPS" },
   { id: 4, Img:FT2, name: "Fish Tank 2.0, MAIT" },
@@ -220,7 +247,7 @@ const sampleTechStacks = [
   { icon: "bootstrap.svg", language: "Bootstrap" },
   { icon: "tailwind.svg", language: "Tailwind" },
   { icon: "nodejs.svg", language: "NodeJS" },
-  { icon: "../src/assets/ibm'26.png", language: "GenAi,Cloud Computing" }
+  { icon: "../src/assets/ibm'26.png", language: "Generative AI (IBM)" }
 ];
 
 const LandingPage = ({ showWelcome, setShowWelcome }) => {
@@ -259,6 +286,20 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
   Experience
 </h1>
             <Experience
+              logo={uptoskills}
+              company="UptoSkills"
+              tagline="Building real-world web applications end-to-end in a collaborative team environment."
+              role="Full Stack Developer Intern"
+              time="JULY'26 - PRESENT"
+            />
+            <Experience
+              logo={alfido}
+              company="Alfido Tech"
+              tagline="Built user-friendly, responsive web experiences."
+              role="Frontend Developer Intern"
+              time="JULY'26 - AUGUST'26"
+            />
+            <Experience
               logo={collazon}
               company="Collazon"
               tagline="Leading events, coordinating teams, ensuring flawless execution."
@@ -270,13 +311,13 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
               company="Google"
               tagline="Empowering campus students to learn, build, and lead the future with Google Gemini."
               role="Student Ambassador"
-              time="SEPTEMBER'25 - JUNE'26"
+              time="SEPTEMBER'25 - MARCH'26"
             />
             <Experience
               logo={gssoc}
               company="GirlScript Summer of Code (GSSoC) || Remote"
               tagline="Collaborating with developers worldwide to improve open-source projects."
-              role="Open Source Contributer"
+              role="Open Source Contributor"
               time="JULY'25 - JANUARY'26"
             />
             <Experience
@@ -284,7 +325,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
               company="IEEE, ADGIPS"
               tagline="Driving seamless execution through technology and innovation."
               role="Event Lead, Technorax V11.0"
-              time="JUNE'25 - OCT'25"
+              time="JULY'25 - OCT'25"
             />
             <Experience
               logo={IEEE}

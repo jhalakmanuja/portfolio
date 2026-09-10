@@ -60,6 +60,8 @@ export default function FullWidthTabs({ projects, certificates, techStacks }) {
   const [showAllCertificates, setShowAllCertificates] = useState(false);
   const navigate = useNavigate();
   const isMobile = typeof window !== 'undefined' ? window.innerWidth < 768 : false;
+  // Projects: show everything by default on desktop; certificates keep the original cap.
+  const initialProjectItems = isMobile ? 4 : projects.length;
   const initialItems = isMobile ? 4 : 6;
 
   const toggleShowMore = useCallback((type) => {
@@ -67,7 +69,7 @@ export default function FullWidthTabs({ projects, certificates, techStacks }) {
     else setShowAllCertificates((prev) => !prev);
   }, []);
 
-  const displayedProjects = showAllProjects ? projects : projects.slice(0, initialItems);
+  const displayedProjects = showAllProjects ? projects : projects.slice(0, initialProjectItems);
   const displayedCertificates = showAllCertificates ? certificates : certificates.slice(0, initialItems);
 
   return (
@@ -154,7 +156,7 @@ export default function FullWidthTabs({ projects, certificates, techStacks }) {
               </div>
             ))}
           </div>
-          {projects.length > initialItems && (
+          {projects.length > initialProjectItems && (
             <div className="mt-6 w-full flex justify-start">
               <ToggleButton onClick={() => toggleShowMore("projects")} isShowingMore={showAllProjects} />
             </div>

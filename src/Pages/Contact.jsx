@@ -301,8 +301,8 @@ const ContactPage = () => {
                   <div className="relative group">
                     <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-200 to-pink-200 rounded-xl blur opacity-20 group-hover:opacity-30 transition duration-500"></div>
                     <div className="relative bg-white/30 backdrop-blur-sm rounded-xl p-4 border border-purple-200/30">
-                      <h4 className="font-semibold text-purple-500 mb-1">Guru Gobin Singh Indraprastha University</h4>
-                      <p className="text-purple-400 text-sm font-light">B.tech (AIML)</p>
+                      <h4 className="font-semibold text-purple-500 mb-1">Guru Gobind Singh Indraprastha University, Delhi</h4>
+                      <p className="text-purple-400 text-sm font-light">B.Tech (AIML) · CGPA: 8.82</p>
                       <p className="text-purple-300 text-xs mt-1">2024-2028</p>
                     </div>
                   </div>
@@ -321,7 +321,7 @@ const ContactPage = () => {
               <div className="mb-8">
                 <h3 className="text-2xl font-bold mb-4">
                   <span className="bg-gradient-to-r from-purple-500 to-pink-400 bg-clip-text text-transparent">
-                   Co-curricular Achievemts
+                   Co-curricular Achievements
                   </span>
                 </h3>
                 <div className="space-y-3">

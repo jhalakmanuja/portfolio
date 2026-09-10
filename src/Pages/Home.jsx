@@ -30,7 +30,7 @@ const MainTitle = memo(() => (
       <span className="relative inline-block -mt-10 sm:mt-12 md:mt-16 lg:mt-20">
         <span className="absolute -inset-2 bg-gradient-to-r from-purple-300 to-pink-300 blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-purple-500 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-          Frontend
+          Full Stack
         </span>
       </span>
       <br />
@@ -89,10 +89,10 @@ const TYPING_SPEED = 200;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 const WORDS = [
-  "Artificial Intelligence & Machine Learning Student At IP University, Delhi",
-  "Tech Enthusiast",
+  "Artificial Intelligence & Machine Learning Student At GGSIPU, Delhi",
+  "Building Full Stack + AI/ML Solutions",
 ];
-const TECH_STACK = ["Tailwind CSS", "Bootstrap", "React.js"];
+const TECH_STACK = ["React.js", "Node.js", "Python (AI/ML)"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/jhalakmanuja" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/jhalak-manuja-450361284/" },
@@ -168,7 +168,7 @@ const Home = () => {
 
                 {/* Description */}
                 <p className="text-base md:text-lg text-purple-400 max-w-xl leading-relaxed font-light">
-                  Frontend developer passionate about crafting intuitive, visually engaging user experiences through strong UI/UX design. Currently expanding into backend development to deliver seamless, full-stack solutions.
+                  Full stack developer building responsive, production-deployed web apps with React, Node.js, and MySQL — now expanding into AI/ML and Generative AI to build intelligent, impactful products.
                 </p>
 
                 {/* Tech Stack */}

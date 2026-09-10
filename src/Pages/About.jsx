@@ -97,9 +97,9 @@ const ProfileImage = memo(() => (
           
           const AboutPage = () => {
           
-            const totalProjects = 6;
-            const totalCertificates = 6;
-            const YearExperience = 5;
+            const totalProjects = 7;
+            const totalCertificates = 7;
+            const YearExperience = 6;
           
             useEffect(() => {
               const initAOS = () => {
@@ -157,7 +157,7 @@ const ProfileImage = memo(() => (
             </h2>
 
             <p className="text-base sm:text-lg lg:text-xl text-purple-400 leading-relaxed text-justify pb-4 sm:pb-0" data-aos="fade-right" data-aos-duration="1500">
-              Passionate and detail-oriented frontend developer with a strong focus on creating intuitive, visually engaging, and user-friendly interfaces. Skilled in translating ideas into responsive, interactive designs, with a growing interest in UI/UX principles to enhance user experiences. Currently pursuing B.Tech in Artificial Intelligence and Machine Learning at IP University, Delhi, while expanding expertise into backend development to build end-to-end solutions. Venturing deeper into the field of AI, driven by a passion for innovation, problem-solving, and developing impactful tech solutions that combine intelligence with creativity.
+              Full stack developer with hands-on experience building responsive, production-deployed web applications using React.js, Node.js, Express.js, MySQL, Tailwind CSS, and JavaScript. Currently pursuing B.Tech in Artificial Intelligence and Machine Learning at GGSIPU, Delhi, and expanding my skillset into AI/ML — combining web development with deep learning (CNN) and Generative AI to build intelligent, impactful products. Driven by a passion for innovation, problem-solving, and creating tech solutions that bridge strong engineering with real-world impact.
             </p>
 <div className="relative bg-white/40 backdrop-blur-xl border border-purple-200/30 rounded-2xl p-4 my-6 shadow-2xl overflow-hidden" data-aos="fade-up" data-aos-duration="1700">
               <div className="absolute top-2 right-4 w-16 h-16 bg-gradient-to-r from-purple-300/20 to-pink-300/20 rounded-full blur-xl"></div>
