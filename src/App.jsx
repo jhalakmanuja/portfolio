@@ -29,7 +29,7 @@ import gsa from "./assets/googlesa.png";
 import sih from "./assets/SehatLink.png";
 import code1 from "./assets/collazoncode1.png";
 import collazon from "./assets/CollazonLogo.png";
-import uptoskills from "./assets/UptoSkillsLogo.png";
+import uptoskills from "./assets/UptoskillsLogo.png";
 import alfido from "./assets/AlfidoLogo.png";
 import skinDisease from "./assets/SkinDiseaseDetection.svg";
 import ati from "./assets/AlfidoTechCertificate.png";
