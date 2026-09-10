@@ -33,6 +33,7 @@ import uptoskills from "./assets/UptoSkillsLogo.png";
 import alfido from "./assets/AlfidoLogo.png";
 import skinDisease from "./assets/SkinDiseaseDetection.svg";
 import ati from "./assets/AlfidoTechCertificate.png";
+
 export const sampleProjects = [
   {
     id: 8,
